@@ -1,0 +1,272 @@
+div.navbar_1{
+    background-color: white;
+  
+    height: 52px;
+    display: flex;
+    cursor: pointer;
+}
+#a1{
+    width: 5.5in;
+    border-radius: 2px;
+    background-image: url("./assets/baseline_search_black_24dp.png") ;
+    height:52px ;
+    background-repeat: no-repeat;
+    background-size: 40px ;
+    background-position: 10px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(235, 233, 233);
+}
+
+div.center{
+    display: flex;
+}
+div.right{
+    
+    height: calc(90vh);
+    width: calc(82vw);
+   
+   
+      
+}
+div.left{
+   
+    height: calc(90vh);
+    width: calc(18vw);
+    border: 1px solid rgb(206, 202, 202);
+
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+div.noti{
+    display: flex;
+    width: calc(4vw);
+    height: 55px;
+ 
+}
+
+div.logo{
+    display: flex;
+    width: calc(11vw);
+    height: 55px;
+    background-color: rgb(105, 65, 65);
+}
+div.search{
+    margin-left: 25px;
+    display: flex;
+    width: calc(40vw);
+    height: 55px;
+   
+}
+
+
+div.settings{
+    display: flex;
+    width: calc(5vw);
+    height: 55px;
+   
+}
+div.icons{
+    margin-left: 340px;
+    display: flex;
+    width: calc(22vw);
+    height: 55px;
+  
+}
+div.signin{
+    display: flex;
+    width: calc(10vw);
+    height: 55px;
+   
+
+}
+div.icons .material-icons:hover
+{
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+div.noti .material-icons:hover
+{
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+
+/* leftside bar start */
+div.button{
+    height: calc(8vh);
+   
+}
+div.a2{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    box-shadow: 1px 1px 1px 1px rgb(112, 111, 111);
+    border-radius: 100px;
+    height: 40px;
+    width: 1.3in;
+    margin-top: 5px;
+    background-color: white;
+    margin-bottom: 5px;
+    margin-left: 1cm;
+
+}
+div.a2:hover{
+ background-color: lightgray;
+}
+
+div.inbox{
+    height: calc(6vh);
+  
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+div.snooze{
+    height: calc(6vh);
+   
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+
+div.starred{
+    height: calc(6vh);
+    
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+div.sent{
+    height: calc(6vh);
+  
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+div.more{
+    height: calc(6vh);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+     cursor: pointer;
+}
+
+div.meetstart{
+    height: calc(6vh);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+div.meetjoin{
+    height: calc(6vh);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+}
+div.hangout{
+    height: calc(6vh);
+    display: flex;
+    align-items: center;
+   
+    cursor: pointer;  
+}
+h4{
+    color: rgb(156, 156, 156);
+}
+div.hangout:hover{
+    background-color: lightgray;
+}
+div.meetstart:hover{
+    background-color: lightgray;
+}
+div.meetjoin:hover{
+    background-color: lightgray;
+}
+div.starred:hover{
+    background-color: lightgray;
+}
+div.snooze:hover{
+    background-color: lightgray;
+}
+div.sent:hover{
+    background-color: lightgray;
+}
+div.more:hover{
+    background-color: lightgray;
+}
+/* center starts */
+div.nav2{
+    display: flex;
+  
+    height: 50px;
+    width: 100%;
+}
+div.primary{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+     cursor: pointer;
+     border-bottom: 2px solid red;
+     margin-left: 20px;
+     width: 1.5in;
+}
+div.social{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+     cursor: pointer;
+     margin-left: 20px;
+     width: 1.5in;
+}
+div.promo{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+     cursor: pointer;
+     margin-left: 20px;
+     width: 1.5in;
+}
+
+div.primary:hover{
+    background-color: lightgray;
+}
+div.social:hover{
+    background-color: lightgray;
+}
+div.promo:hover{
+    background-color: lightgray;
+}
+div.email{
+    height: calc(5vh);
+   border: 1px solid rgb(206, 202, 202);
+    display: flex;
+    align-items: center;
+    
+}
+
+div.email:hover{
+    background-color: lightgray;
+} 
+@media screen and (max-width: 600px) {
+    div.navbar_1{
+       width: calc(100%);
+    }
+    div.right{
+        flex-wrap: wrap;
+    }
+    div.left{
+        flex-wrap: wrap;
+    }
+}
